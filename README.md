@@ -1,2 +1,25 @@
 # common-settings
 Commonly used configuration files
+
+
+# OmniSharp
+
+For configuring the OmniSharp extension in e.g. VSCode, place a configuration file here: `~/.omnisharp/omnisharp.json`. Compact formatting of C# code:
+
+```
+{
+    "FormattingOptions": {
+    "NewLinesForBracesInLambdaExpressionBody": false,
+    "NewLinesForBracesInAnonymousMethods": false,
+    "NewLinesForBracesInAnonymousTypes": false,
+    "NewLinesForBracesInControlBlocks": false,
+    "NewLinesForBracesInTypes": false,
+    "NewLinesForBracesInMethods": false,
+    "NewLinesForBracesInProperties": false,
+    "NewLinesForBracesInObjectCollectionArrayInitializers": false,
+    "NewLinesForBracesInAccessors": false,
+    "NewLineForElse": false,
+    "NewLineForCatch": false,
+    "NewLineForFinally": false
+}    
+```
